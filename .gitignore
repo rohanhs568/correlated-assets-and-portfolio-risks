@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+.env/
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- VSCode / IDE settings ---
+.vscode/
+.idea/
+
+# --- Build / packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- Cache files ---
+*.cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+__pycache__/
+
+# --- Data / generated files ---
+*.csv
+*.npz
+*.npy
+
+# --- Figures / outputs (optional; remove if you want to version plots) ---
+figures/
+*.png
+*.pdf
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
